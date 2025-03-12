@@ -15,6 +15,7 @@ nav ul{
 li a{color: #000000;
     text-decoration: none;
     padding: 10px 20px;
+    
     display: inline-block;
 }
 
@@ -37,3 +38,32 @@ ul li a:hover{
 }
 
 #h1{margin-left: 30px;}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: auto;
+    width:auto;
+}
+.border{
+    border-right:10px solid gray ;
+    flex: 29%;
+}
+#border{
+    border-right: 10px solid gray;
+    flex: 42%;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+      background-color: rgb(253, 253, 253);
+      color: rgb(165, 3, 3);
+    }
+    #nav,#navbar {
+      display: flex;
+      flex-direction: column;
+    }
+    #nav{margin-top: -20px;}
+}
