@@ -1,0 +1,32 @@
+nav ul{
+    list-style-type: none;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+li a{color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    display: inline-block;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color: burlywood;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+   align-items: center;
+}
