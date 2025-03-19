@@ -1,3 +1,39 @@
+nav ul{
+  list-style-type: none;
+  background-color: #34c2c7;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+li a{color: #000000;
+  text-decoration: none;
+  padding: 10px 20px;
+  
+  display: inline-block;
+}
+
+ul li{
+  display: inline-block;
+  font-size: 20px;
+}
+
+ul li a:hover{
+  background-color: lightblue;
+  text-decoration: underline;
+  font-size: 23px;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #34c2c7;
+ align-items: center;
+}
+*{
+  font-family: cursive, sans-serif;
+}
+
 h2,h2,h3,h4,h5,h6 {
     font-family: cursive, sans-serif;
     font-weight: bold;

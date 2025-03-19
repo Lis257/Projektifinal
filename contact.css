@@ -1,6 +1,6 @@
 nav ul{
     list-style-type: none;
-    background-color: antiquewhite;
+    background-color: rgb(50, 112, 60);
     text-align: center;
     padding: 20px;
     margin: 20px;
@@ -19,7 +19,7 @@ ul li{
 }
 
 ul li a:hover{
-    background-color: burlywood;
+    background-color: rgb(20, 172, 199);
     text-decoration: underline;
     font-size: 23px;
 }
@@ -27,6 +27,54 @@ ul li a:hover{
 #navbar{
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: rgb(50, 112, 60);
    align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #444;
+}
+p {
+    text-align: center;
+    line-height: 1.6;
+}
+.contact-info {
+    margin-top: 20px;
+}
+.contact-info div {
+    margin-bottom: 15px;
+}
+.contact-info div span {
+    font-weight: bold;
+    color: #555;
+}
+.social-links a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #888;
 }
